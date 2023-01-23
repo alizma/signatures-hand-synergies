@@ -1,0 +1,10 @@
+name: signatures
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - numpy
+  - scipy=1.10.0
+  - pip:
+      - iisignature
