@@ -6,5 +6,9 @@ dependencies:
   - pip
   - numpy
   - scipy=1.10.0
+  - pandas
+  - ipykernel
+  - matplotlib
+  - scikit-learn
   - pip:
       - iisignature
