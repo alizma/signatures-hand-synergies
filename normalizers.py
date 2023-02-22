@@ -1,10 +1,11 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
+
 # TODO: DB5 specific right now, change so extracts by last column in general 
 def normalize(data : pd.DataFrame, train_reps : list) -> pd.DataFrame:
     """
-    Given sEMG data and exercise repetitions, extracts the subset of data corresponding by specification,
+    Given sEMG data and exercise repetitions, extracts the subset of data from specification,
     which is centered and scaled to unit variance. 
     
     Parameters
@@ -33,3 +34,4 @@ def normalize(data : pd.DataFrame, train_reps : list) -> pd.DataFrame:
     normalized['stimulus'], normalized['repetition'] = data['stimulus'], data['repetition']
 
     return normalized
+    
