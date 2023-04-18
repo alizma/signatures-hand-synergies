@@ -1,5 +1,7 @@
 # Ninapro data, stored locally 
 /signatures_data/*
+*.png
+*.jpg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
