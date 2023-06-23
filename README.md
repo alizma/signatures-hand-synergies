@@ -1,5 +1,7 @@
 # signatures-hand-synergies
 
+Check the write-up [here](https://github.com/alizma/signatures-hand-synergies/blob/main/Signatures_for_Hand_Kinematic_Synergies-3.pdf). This project was done under Professor Kavita Ramanan and William Salkeld at Brown under the Spring 2023 UTRA Award. 
+
 ## Database Annotations 
 
 ### DB1 
