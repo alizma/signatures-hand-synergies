@@ -1,3 +1,4 @@
+# Testing file to see how large dimensions get
 import iisignature
 import numpy as np
 

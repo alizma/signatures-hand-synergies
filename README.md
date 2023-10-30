@@ -2,6 +2,20 @@
 
 Check the write-up [here](https://github.com/alizma/signatures-hand-synergies/blob/main/Signatures_for_Hand_Kinematic_Synergies-3.pdf). This project was done under Professor Kavita Ramanan and William Salkeld at Brown under the Spring 2023 UTRA Award. 
 
+## File Organization
+`classify_stim.ipynb` - Initial testing of classification algorithms
+
+`exploratory_data_analysis.ipynb` - Initial plotting, analysis, etc. of data
+
+`main.ipynb` - main results from writeup
+
+`deepmlp_classif.ipynb` - similar results to `main.ipynb` but using MLP
+
+### Scripts:
+`normalizers.py` - simple normalizers
+
+`paths.py` - `Path` objects for different databases
+
 ## Database Annotations 
 
 ### DB1 
